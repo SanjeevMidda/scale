@@ -1,0 +1,61 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0px;
+  transition: all 300ms;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  flex-direction: column;
+  max-width: 100dvw;
+  overflow: hidden;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99dvw;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoContainer {
+  width: 99dvw;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+img:hover {
+  transform: scale(2);
+}
+
+h1 {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#titleTwo {
+  text-align: right;
+  padding-right: 20px;
+}
